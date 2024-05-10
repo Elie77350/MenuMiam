@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		D0602F102BEE460300B03974 /* MenuMiamApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0602F0F2BEE460300B03974 /* MenuMiamApp.swift */; };
-		D0602F122BEE460300B03974 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0602F112BEE460300B03974 /* ContentView.swift */; };
+		D0602F122BEE460300B03974 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0602F112BEE460300B03974 /* MenuView.swift */; };
 		D0602F142BEE460400B03974 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0602F132BEE460400B03974 /* Assets.xcassets */; };
 		D0602F172BEE460400B03974 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0602F162BEE460400B03974 /* Preview Assets.xcassets */; };
+		D0602F1E2BEE5A0500B03974 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0602F1D2BEE5A0500B03974 /* MenuItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D0602F0C2BEE460300B03974 /* MenuMiam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MenuMiam.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0602F0F2BEE460300B03974 /* MenuMiamApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuMiamApp.swift; sourceTree = "<group>"; };
-		D0602F112BEE460300B03974 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0602F112BEE460300B03974 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		D0602F132BEE460400B03974 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0602F162BEE460400B03974 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0602F1D2BEE5A0500B03974 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,10 @@
 			isa = PBXGroup;
 			children = (
 				D0602F0F2BEE460300B03974 /* MenuMiamApp.swift */,
-				D0602F112BEE460300B03974 /* ContentView.swift */,
+				D0602F112BEE460300B03974 /* MenuView.swift */,
 				D0602F132BEE460400B03974 /* Assets.xcassets */,
 				D0602F152BEE460400B03974 /* Preview Content */,
+				D0602F1D2BEE5A0500B03974 /* MenuItem.swift */,
 			);
 			path = MenuMiam;
 			sourceTree = "<group>";
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0602F122BEE460300B03974 /* ContentView.swift in Sources */,
+				D0602F1E2BEE5A0500B03974 /* MenuItem.swift in Sources */,
+				D0602F122BEE460300B03974 /* MenuView.swift in Sources */,
 				D0602F102BEE460300B03974 /* MenuMiamApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
